@@ -14,6 +14,8 @@ const allowedOrigins = [
     .split(',')
     .map((origin) => origin.trim()),
   'http://127.0.0.1:5173',
+  'https://foundation-backend-l0fe.onrender.com',
+  'https://foundation15.netlify.app',
 ]
 
 app.use(
